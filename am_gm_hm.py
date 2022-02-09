@@ -6,7 +6,7 @@ def means(values):
     am = sum(values)/ len(values)
     p = 1
 
-    # 
+    # gm = (1.2.3....n)^1/2 
     gm = functools.reduce(operator.mul, values)**(1/len(values))
     #print(gm)
     # 
